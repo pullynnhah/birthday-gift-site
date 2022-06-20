@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(#FFCA64, #ea5d5d) fixed;
+  font-family: "Fredoka", sans-serif;
+
+  color: #fafafa;
+  text-shadow: 0 0 3px black;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 200px;
+  border: 6px solid #ea5d5d;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#age, #date {
+  background-color: #ea5d5d;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+h3, .hint {
+  font-size: 22px;
+}
+
+main {
+  text-align: center;
+}
+
+.gift {
+  margin: 20px auto 60px;
+  width: 500px;
+  height: 400px;
+  border: 5px solid #FFCA64;
+  background-image: url("images/gift.jpg");
+  background-size: cover;
+  cursor: pointer;
+}
+
+#happy:hover {
+  background-image: url("images/happy.gif");
+}
+
+#cash:hover {
+  background-image: url("images/money.gif");
+}
+
+#coffee:hover {
+  background-image: url("images/coffee.gif");
+}
+
+#coding:hover {
+  background-image: url("images/coding.gif");
+}
+
+#dance:hover {
+  background-image: url("images/dance.gif");
+}
